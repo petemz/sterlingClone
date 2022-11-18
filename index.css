@@ -1,0 +1,176 @@
+body {
+    margin: 0%;
+    color: white;
+    display: flex;
+}
+
+#main-section {
+    display: flex;
+    font-size: 45px;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    z-index: ;
+}
+
+#main-section > a {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-position: center; 
+    text-decoration: none;
+    text-align: center;
+}
+
+#whatsapp {
+    float: center;
+    width: 100%;
+}
+
+#section-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+}
+
+#section-header > div {
+    margin-right:70px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sterling-logo {
+    width: 200px;
+    padding-top: 50px;
+    padding: 25px 75px;
+}
+
+#personal {
+    background-image: url(../images/index/sterling-landing-page-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#business {
+    background-image: url(../images/index/sterling-landing-page-02.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#alternative {
+    background-image: url(../images/index/sterling-landing-page-03.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.type {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    color: white;
+}
+
+#dropbtn {
+    padding: 13px;
+    border: none;
+    width: 210px;
+    background-color: #d92028;
+    border-radius: 100px;
+    color: white;
+    font-size: 17px;
+    font-weight: 590;
+  }
+  
+#dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+#dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d92028;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 270px;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+  
+#dropdown-content a {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    display: block;
+    width: 270px;
+    font-size: 15px;
+    text-align: center;
+}
+  
+#dropdown:hover #dropdown-content {
+    display: block;
+    width: 270px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1025px) {
+    #main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .type {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .type {
+        height: 43.3vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .sterling-logo {
+        width: 140px;
+        padding-top: 50px;
+        padding: 25px 25px;
+    }
+
+    #section-header > div {
+        margin-right:70px;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    
+}
+
+@media only screen and (max-width: 700px) {
+    #dropbtn {
+        width: 160px;
+        olor: #d92028;
+        background-color: #d92028;
+        height: 45px;
+    }
+
+    #section-header > div {
+        margin-right:35px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    
+}
+
+* {
+  order: 1px black solid;
+}
+
